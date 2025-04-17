@@ -1,14 +1,14 @@
-a{
+ .slidermenu a {
     text-decoration: none;
     color: var(--text-color);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
-ul{
+.slidermenu ul{
     list-style: none;
     padding: 0;
     margin: 0;
 }
-li{
+.slidermenu li{
     list-style: none;
     padding: 0;
     margin: 0;
@@ -16,12 +16,16 @@ li{
     background-color: var(--light-color);
     border-radius: 5px;
     padding: 5px;
+    transition: 0.7s ease;
     margin: 5px;
 }   
+.slidermenu li:hover{
+    background-color: var(--secondary-color);
+}
 /*   Slider Menu Styles  */
 .slidermenu {
     position: fixed;
-    top: 3rem;
+    top: 3.3rem;
     left: 0px; /* Hide the menu off-screen */
     width: 250px;
     height: 100%;
