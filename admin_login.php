@@ -53,16 +53,8 @@
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $username = $_POST["user_name"];
         $upassword = $_POST["userpassword"];
+        include "templates/dbconnect.php";
 
-        $servername = "localhost:3306";
-        $dbname = "bca6thsemproject";
-        $dbusername = "root";
-        $dbpassword = "";
-        $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
-
-        if ($conn->connect_errno != 0) {
-            die("Connection failed: " . $conn->connect_error);
-        }
 
         // Corrected SQL query
         $sql = "SELECT * FROM admin WHERE username='$username'";
