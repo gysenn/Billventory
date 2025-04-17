@@ -19,7 +19,7 @@ Billventory is a subscription-based platform designed for retail and wholesale b
 
 - **Frontend**: 
   - HTML5, CSS3, JavaScript (Bootstrap for responsive design)
-  - Font Awesome for icons
+  - Bootstrap for icons
   - jQuery for dynamic content
 
 - **Backend**: 
