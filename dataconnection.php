@@ -8,6 +8,7 @@ if (isset($_SESSION["fullname"], $_SESSION["username"], $_SESSION["email"], $_SE
     $phone = $_SESSION["phone"];
     $upassword = $_SESSION["password"]; // Already hashed from JS
 
+
    include "templates/dbconnect.php";   
 
     // Check if username already exists
@@ -22,6 +23,11 @@ if (isset($_SESSION["fullname"], $_SESSION["username"], $_SESSION["email"], $_SE
                 VALUES ('$fullname', '$username', '$phone', '$email', '$upassword')";
 
         if ($conn->query($sql) === TRUE) {
+            session_unset();
+
+            // Destroy the session
+            session_destroy();
+
             header("Location: index.php");
             exit();
         } else {
