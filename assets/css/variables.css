@@ -1,7 +1,7 @@
 /* Root Color Variables */
 :root {
     /* Primary Colors */
-    --primary-color: #0d6efd;
+    --primary-color: #0e79e4;
     --secondary-color: #6c757d;
     --success-color: #198754;
     --danger-color: #dc3545;
@@ -17,4 +17,5 @@
     --text-color: #000000;
     --btn-hover:#0056b3;
     --shadow-border:rgba(0, 0, 0, 0.1);
+    --inputbox-color:#80808092;
 }
