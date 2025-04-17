@@ -19,7 +19,7 @@
 <body>
     <nav>
         <div class="nav_col-1">
-            <h3><a href="index.php" style="text-decoration: none;">Billventory</a></h3>
+            <h3><a href="index.php" style="text-decoration: none;" class="text-primary">Billventory</a></h3>
         </div>
         <div class="nav_col-2">
             <ul>

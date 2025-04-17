@@ -1,27 +1,25 @@
+<?php
+session_start();
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UserDashboard</title>
+    <link rel="stylesheet" href="assets/css/nav_style.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css//shopowner/user_dashboard_style.css">
 </head>
 <body>
-    <nav>
-    <div class="nav_col-1">
-            <h3><a href="index.php" style="text-decoration: none;">Billventory</a></h3>
-        </div>
-       
-        <div class="nav_col-2">
-            <div class="user_profile_pic">
-               <img src="" alt="user profile picture" >
-           </div>
-              <div class="user_profile_name">
-                <h3>Username</h3>
-              </div>
-        </div>
-    </nav>
+   <div class="nav">
+    <?php
+    include 'templates/navbar.php';
+    ?>
+   </div>
     <main>
-
     </main>
     <footer>
         

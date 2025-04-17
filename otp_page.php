@@ -52,8 +52,11 @@
             
             // Compare the OTP entered by the user with the one in the database
             if ($otpEntered === $row['otpcode']) {
+               
                 // If OTP matches, redirect to dataconnection.php (uncomment header() below after testing)
                 header('Location: dataconnection.php');
+                
+
             } else {
                 $error_otpCode = "OTP doesn't match.";
             }
