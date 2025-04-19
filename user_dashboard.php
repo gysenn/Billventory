@@ -10,16 +10,16 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UserDashboard</title>
     <link rel="stylesheet" href="assets/css/variables.css">
-    <link rel="stylesheet" href="assets/css//shopowner/user_dashboard_style.css">
+    <link rel="stylesheet" href="assets/css/shopowner/user_dashboard_style.css">
 </head>
 <body>
    <div class="nav">
     <?php
-    include 'templates/navbar.php';
+    include 'templates/shopowner/navbar.php';
     ?>
    </div>
     <main>
-    <div class="sliderframe"><?php include 'templates/slidemenu.php';?></div>
+    <div class="sliderframe"><?php include 'templates/shopowner/slidemenu.php';?></div>
     </main>
     <footer>
         
