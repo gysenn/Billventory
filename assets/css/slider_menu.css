@@ -25,7 +25,7 @@
 /*   Slider Menu Styles  */
 .slidermenu {
     position: fixed;
-    top: 3.3rem;
+    top: 3rem;
     left: 0px; /* Hide the menu off-screen */
     width: 250px;
     height: 100%;

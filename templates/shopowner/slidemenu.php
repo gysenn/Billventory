@@ -17,7 +17,7 @@
         <div class="sildemenu__content">
             <ul>
                 <li><a id="Dashboard" href="user_dashboard.php"><i class="bi bi-display"></i> Dashboard</a></li>
-                <li><a id="Staff" href="#sta"><i class="bi bi-people-fill"></i> Staff</a></li>
+                <li><a id="Staff" href="user_staffmanagment_page.php"><i class="bi bi-people-fill"></i> Staff</a></li>
                 <li><a id="Sales" href="#Sales"><i class="bi bi-cash-coin"></i> Sales</a></li>
                 <li><a id="Inventory" href="#portfolio"><i class="bi bi-box-seam"></i> Inventory</a></li>
                 <li><a id="Supplier" href="#portfolio"><i class="bi bi-truck"></i> Supplier</a></li>
